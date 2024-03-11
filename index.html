@@ -257,20 +257,18 @@ header a{
 }
 
 .modal-content {
-    width: 100%;
-    max-width: 800px; /* Set your desired max width */
     margin: auto;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
     display: flex;
+    width: max-content;
+    height: max-content;
 }
 
 /* Add this style to make the modal image responsive */
 #modalImage {
-    width: 100%;
-    height: auto;
-    max-height: 80vh; /* Set your desired max height, vh is viewport height */
+    max-height: 60vh; /* Set your desired max height, vh is viewport height */
     display: block;
     margin: auto;
     align-items: center;
@@ -523,7 +521,7 @@ header a{
 
         <div id="myModal" class="modal">
             <div class="modal-content">
-<!--                 <span class="close" id="closeModalBtn">&times;</span> -->
+                <span  id="closeModalBtn">&times;</span> 
                 <img id="modalImage" src="" alt="Full-width Image">
             </div>
         </div>  
